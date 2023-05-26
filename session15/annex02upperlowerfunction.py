@@ -10,3 +10,5 @@ def string_test(s):
     print ("Original String : ", s)
     print ("No. of Upper case characters : ", d["UPPER_CASE"])
     print ("No. of Lower case Characters : ", d["LOWER_CASE"])
+
+print(string_test("Keval"))
