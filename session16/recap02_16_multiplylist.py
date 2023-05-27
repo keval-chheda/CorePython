@@ -3,4 +3,4 @@ def multiply(numbers):
     for x in numbers:
         total *= x  # total = total * x
     return total
-print(multiply((8, 2, 3, -1, 7)))
+print(multiply({8, 2, 3, -1, 7}))

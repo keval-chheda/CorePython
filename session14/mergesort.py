@@ -1,6 +1,6 @@
 arr1 = [10,7,8,14]
 arr2 = [5,6,7,9]
-merged_array = []
+merged_array =[]
 def merge_sorted_array(arr1, arr2):
      i = 0
      j = 0
@@ -11,8 +11,16 @@ def merge_sorted_array(arr1, arr2):
                i+=1
           else:
                merged_array.append(arr2[j])
+               j+=1
      while i < len(arr1):
           merged_array.append(arr1[i])
           i+=1
      while j < len(arr2):
+          merged_array.append(arr2[j])
+          j+=1
+     return merged_array
+
+
+merged_array = merge_sorted_array(arr1, arr2)
+print(merged_array)
           
