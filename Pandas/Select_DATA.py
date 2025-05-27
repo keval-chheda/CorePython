@@ -6,7 +6,7 @@ def selectData(students: pd.DataFrame) -> pd.DataFrame:
 # Sample data
 data = {
     'student_id': [101, 53, 128, 3],
-    'name': ['Ulysses', 'William', 'Henry', 'Henry'],
+    'name': ['Ulysses', 'William', 'Henry', 'Henr   y'],
     'age': [13, 10, 6, 11]
 }
 
